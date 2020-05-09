@@ -6,6 +6,7 @@
 
 - link:
     ~/.profile: profile
+    ~/.gitconfig: .gitconfig
     ~/.bashrc: shell/bashrc
     ~/.bash_logout: shell/bash_logout
     ~/.zshrc: shell/.zshrc
