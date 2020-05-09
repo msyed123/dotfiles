@@ -35,7 +35,6 @@ esac
 
 # the theme makes or breaks the air of looking like you know what you're doing
 antigen theme https://github.com/romkatv/powerlevel10k
-powerlevel10k
 
 # Apply the antigen stuff
 antigen apply
@@ -55,3 +54,6 @@ compinit
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f $ZSH_HOME/shell/.p10k.zsh ]] || source $ZSH_HOME/shell/.p10k.zsh
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
