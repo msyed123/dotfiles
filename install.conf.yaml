@@ -9,6 +9,7 @@
     ~/.bashrc: shell/bashrc
     ~/.bash_logout: shell/bash_logout
     ~/.zshrc: shell/.zshrc
+    ~/.p10k.zsh: shell/.p10k.zsh
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
