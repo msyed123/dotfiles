@@ -1,8 +1,14 @@
+- defaults:
+    link:
+        relink: true
+
 - clean: ['~']
 
 - link:
     ~/.profile: profile
-    ~/.bashrc: bashrc
-    ~/.bash_logout: bash_logout
+    ~/.bashrc: shell/bashrc
+    ~/.bash_logout: shell/bash_logout
+    ~/.zshrc: shell/.zshrc
 
-
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]
